@@ -35,7 +35,7 @@ class GoodCode extends Plugin
 	}
 	
 	private function filter( $string ) {
-		return htmlentities( $string );
+		return htmlspecialchars( $string );
 	}
 	
 	/**
